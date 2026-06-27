@@ -22,28 +22,6 @@ text-align: center;
     text-align:center;
 }
 
-input{
-    width:220px;
-    padding:10px;
-    margin:8px 0;
-    border:1px solid #ccc;
-    border-radius:5px;
-    display:block;
-}
-
-button{
-    width:100%;
-    padding:10px;
-    background:#4CAF50;
-    color:white;
-    border:none;
-    border-radius:5px;
-    cursor:pointer;
-}
-
-button:hover{
-    background:#45a049;
-}
 h1{
     color: #1b5e20; /* Verde escuro */
     font-size: 50px;
