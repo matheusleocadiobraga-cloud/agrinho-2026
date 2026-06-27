@@ -1,0 +1,58 @@
+body{
+background-color:  blue   ;
+color: white;
+margin: 0;
+padding: 20px;
+min-height: 100vh;
+max-width: 1400px;
+margin: auto;
+}
+.curiosidade1{
+display: flex;
+justify-content:center;
+color: aqua;
+font-size: 30px;
+text-align: center;
+}
+.caixa{
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+input{
+    width:220px;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+    display:block;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#4CAF50;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
