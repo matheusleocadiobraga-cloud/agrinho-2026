@@ -44,7 +44,39 @@ button{
 button:hover{
     background:#45a049;
 }
+h1{
+    color: #1b5e20; /* Verde escuro */
+    font-size: 50px;
+}
+h2{
+    color: #1b5e20;
+    font-size: 40px;
+}
+p{
+    color: #333;
+    font-size: 22px;
+    line-height: 1.6;
+}
+input{
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #4caf50;
+    border-radius: 8px;
+    font-size: 16px;
+}
+button{
+    padding: 10px 20px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
+button:hover{
+    background: #1b5e20;
+}
 
 
 
