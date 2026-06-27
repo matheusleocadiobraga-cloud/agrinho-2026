@@ -55,7 +55,13 @@ button{
 button:hover{
     background: #1b5e20;
 }
+.passo{
+    display: none;
+}
 
+.passo.ativo{
+    display: block;
+}
 
 
 
