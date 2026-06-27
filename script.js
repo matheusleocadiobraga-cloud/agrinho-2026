@@ -9,28 +9,27 @@ function entrar() {
 
     alert(`Bem-vindo, ${nome}! Você tem ${idade} anos.`);
 }
-const avanca = document.querySelectorAll('.btn-proximo');
+const botoesProximo = document.querySelectorAll(".btn-proximo");
 
-avanca.forEach(button => {
-    button.addEventListener('click', function () {
+botoesProximo.forEach(botao => {
+    botao.addEventListener("click", () => {
+        const atual = document.querySelector(".passo.ativo");
+        atual.classList.remove("ativo");
 
-        const atual = document.querySelector('.ativo');
-        const proximoPasso = 'passo-' + this.getAttribute('data-proximo');
-
-        atual.classList.remove('ativo');
-        document.getElementById(proximoPasso).classList.add('ativo');
+        const proximo = document.querySelector("#passo" + botao.dataset.proximo);
+        proximo.classList.add("ativo");
     });
 });
-const voltar = document.querySelectorAll('.btn-voltar');
 
-voltar.forEach(button => {
-    button.addEventListener('click', function () {
+const botoesVoltar = document.querySelectorAll(".btn-voltar");
 
-        const atual = document.querySelector('.ativo');
-        const passoAnterior = 'passo-' + this.getAttribute('data-voltar');
+botoesVoltar.forEach(botao => {
+    botao.addEventListener("click", () => {
+        const atual = document.querySelector(".passo.ativo");
+        atual.classList.remove("ativo");
 
-        atual.classList.remove('ativo');
-        document.getElementById(passoAnterior).classList.add('ativo');
+        const voltar = document.querySelector("#passo" + botao.dataset.voltar);
+        voltar.classList.add("ativo");
     });
 });
 
